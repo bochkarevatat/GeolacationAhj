@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(gray, transparent 1px), linear-gradient(90deg, gray, transparent 1px);
+  background-size: 20px 20px;
+  padding-top: 50px;
+}
+.container-tl{
+  width: 70%;
+  height: 70vh;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(245, 247, 249);
+}
+.list{
+  height: 90%;
+}
+.input-form{
+  height: 10%;
+}
+.form{
+  display: flex;
+  border: 1px solid gray;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px;
+  justify-content:space-evenly;
+}
+.form-input{
+  margin-left: 30px;
+  width: 70%;
+  height: 30px;
+  outline: none;
+  border: 0px solid white;
+}
+.icon-audio{
+  width: 30px;
+  height: 30px;
+  background-size: calc(100% - 12px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/src/img/microphone.png");
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.icon-video{
+  width: 30px;
+  height: 30px;
+  background-size: calc(100% - 12px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/src/img/video.avif");
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.message{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+  border: 1px solid gray;
+  height: 10%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.letter{
+  display: inline-flex;
+  width: 80%;
+  font-size: 18px;
+}
+.data{
+  width: 20%;
+  font-size: 12px;
+  display: inline-flex;
+}
+/* .location{
+  
+} */
+.locationIcon{
+  width: 15px;
+  height: 15px;
+  background-size: calc(100% - 1px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/src/img/oko.png");
+  display: inline;
+}
+.modal{
+  position: absolute;
+  top: 100px;
+  left: 30%;
+  width: 40%;
+  line-height: 20px;
+  background-color: rgb(242, 245, 245);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.modal-text{
+  margin: 10px;
+  font-size: 18px;
+}
+.modal-form{
+margin-top: 10px;
+}
+p{
+  margin-top: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: end;
+ 
+}
+.modal-input{
+  width: 95%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+button{
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  margin-left: 10px;
+  width: 18%;
+  box-shadow: 3px 3px 2px gray;
+}
