@@ -1,0 +1,1 @@
+import Timeline from"./timeline.js";const container=document.querySelector("#container");console.log(container);const timeline=new Timeline(container);timeline.bindToDOM();
